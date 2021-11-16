@@ -64,14 +64,9 @@
   background-color: #f9f9f9;
 }
 
-#why img {
-  height: 100px;
+img {
+  height: 200px;
 }
-
-#steps img {
-  height: 150px;
-}
-
 
 
 .clear {
@@ -92,8 +87,12 @@
     width: 100%;
   }
 
-  img {
-    height: 70px;
+  #why img {
+    height: 100px;
+  }
+  
+  #steps img, #lezioni img {
+    height: 150px;
   }
 
   #why, #lezioni {
