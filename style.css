@@ -80,6 +80,11 @@ img {
 
 @media screen and (min-width: 576px) and (max-width: 1199px){
 
+.row{
+  margin-top: 0;
+  padding: 15px;
+}
+
 #why, #lezioni {
   background-color: #f8ffd1;
 }
