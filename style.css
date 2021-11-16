@@ -73,37 +73,69 @@ img {
   clear: both;
 }
 
+/* ------------------------------------------------ */
 
+
+/* tablet */
+
+@media screen and (min-width: 576px) and (max-width: 1199px){
+
+#why, #lezioni {
+  background-color: #f8ffd1;
+}
+
+#steps{
+  background-color: #fff;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#steps .row{
+  margin-top: 10px;
+}
+
+}
+
+
+
+
+/* Smartphone */
 
 @media screen and (max-width: 575px) {
-  .row{
-    width: 100%;
-    margin-top: 0px;
-    padding: 10px 0px;
-  }
+.row{
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px 0px;
+}
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-  }
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+}
 
-  #why img {
-    height: 100px;
-  }
-  
-  #steps img, #lezioni img {
-    height: 150px;
-  }
+#why img {
+  height: 100px;
+}
 
-  #why, #lezioni {
-    background-color: #f8ffd1;
-  }
+#steps img, #lezioni img {
+  height: 150px;
+}
 
-  #steps{
-    background-color: #fff;
-  }
+#why, #lezioni {
+  background-color: #f8ffd1;
+}
 
-  #why .row>.first,
+#steps{
+  background-color: #fff;
+}
+
+#why .row>.first,
 #why .row>.second,
 #why .row>.third {
   width: 100%;
@@ -126,6 +158,5 @@ h3{
 #steps .row .right img{
   margin-top: 20px;
 }
-
 
 }
